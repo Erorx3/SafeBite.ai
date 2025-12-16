@@ -53,7 +53,7 @@ JSON STRUCTURE:
 `;
 
 export const analyzeImage = async (file: File, category: string, notes?: string): Promise<AnalysisResult> => {
-  const apiKey = "AIzaSyDznScDqU2hVade6i5ODLnYXlQrhx-29N0";
+  const apiKey = "AIzaSyAuKgtfSnnr8ExhU-DvAP2KEzvL5szqHbA";
   if (!apiKey) throw new Error("API Key is missing.");
 
   // Convert file to base64
@@ -144,7 +144,7 @@ export const analyzeImage = async (file: File, category: string, notes?: string)
 };
 
 export const analyzeText = async (textInput: string, category: string): Promise<AnalysisResult> => {
-  const apiKey = "AIzaSyDznScDqU2hVade6i5ODLnYXlQrhx-29N0";
+  const apiKey = "AIzaSyAuKgtfSnnr8ExhU-DvAP2KEzvL5szqHbA";
   if (!apiKey) throw new Error("API Key is missing.");
 
   try {
